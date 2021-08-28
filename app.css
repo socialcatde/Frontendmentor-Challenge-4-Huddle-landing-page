@@ -1,0 +1,386 @@
+body {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+header {
+  background-image: url(images/bg-hero-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(193, 100%, 96%);
+  padding: 3vh 24px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+header img {
+  width: 100%;
+}
+
+.frstLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+  width: 100%;
+}
+
+.frstLine img {
+  width: 96px;
+}
+
+.frstLine button {
+  padding: 5px 20px;
+  border-radius: 19px;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  background-color: white;
+  box-shadow: 0px 2px 6px 0px #96929245;
+}
+
+.frstLine button:hover {
+  color: hsl(208, 11%, 55%);
+  cursor: pointer;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin-bottom: 26px;
+}
+
+.textstyle {
+  margin-bottom: 35px;
+}
+
+.getStarted {
+  padding: 12px 70px;
+  border-radius: 19px;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  background-color: hsl(322, 100%, 66%);
+  box-shadow: 0px 2px 6px 0px #96929245;
+  color: white;
+  margin-bottom: 55px;
+}
+
+.getStarted:hover {
+  background-color: hsla(322, 100%, 66%, 0.541);
+  cursor: pointer;
+}
+
+.mockup {
+  width: 93%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 12px 6px #96929224;
+  border-radius: 17px;
+  border: none;
+  width: 88%;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.product img {
+  width: 70%;
+  margin-top: 55px;
+  margin-bottom: 48px;
+}
+
+h2 {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+.product p {
+  width: 77%;
+  color: hsl(208, 11%, 55%);
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 35px;
+}
+
+.pitchMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calltoact {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 12px 6px #96929224;
+  border-radius: 17px;
+  border: none;
+  width: 93%;
+  align-items: center;
+  margin-top: 75px;
+  background-color: white;
+}
+
+.calltoact h2 {
+  font-size: 18px;
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+.calltoact .getStarted {
+  margin-bottom: 42px;
+  padding: 12px 48px;
+  font-size: 10px;
+}
+
+footer {
+  background-color: #00252e;
+  padding: 140px 20px 0 20px;
+  margin-top: -66px;
+  color: white;
+  font-size: 16px;
+}
+
+.filter-white {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%)
+    hue-rotate(50deg) brightness(108%) contrast(107%);
+}
+
+#logo {
+  width: 47%;
+  margin-bottom: 25px;
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+address img {
+  height: 100%;
+  margin-right: 20px;
+  padding-top: 5px;
+}
+
+.location {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.tel {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.mail {
+  display: flex;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+img.telImg,
+img.mailImg {
+  margin-right: 20px;
+  padding-top: 3px;
+}
+
+#footnav li {
+  margin-bottom: 17px;
+  font-size: 17px;
+}
+
+#social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#social img {
+  width: 18px;
+  margin: 0 5px;
+  padding: 6px;
+  border: 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#social img:hover {
+  filter: brightness(0) saturate(100%) invert(52%) sepia(90%) saturate(2695%)
+    hue-rotate(294deg) brightness(101%) contrast(101%);
+}
+
+#copy {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.attribution {
+  visibility: hidden;
+  font-size: 11px;
+  text-align: center;
+}
+
+@media (min-width: 1173px) {
+  .landing {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .mockup {
+    max-width: 50%;
+  }
+  .pitch {
+    max-width: 37%;
+  }
+
+  h1 {
+    font-size: 37px;
+  }
+
+  h2 {
+    font-size: 29px;
+  }
+
+  .textstyle {
+    font-size: 18px;
+  }
+
+  .getStarted {
+    font-size: 13px;
+    padding: 17px 70px;
+    border-radius: 24px;
+  }
+
+  header {
+    background-image: url(images/bg-hero-desktop.svg);
+    padding-bottom: 65px;
+    padding-top: 4vh;
+    margin-bottom: 170px;
+  }
+
+  .frstLine {
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+
+  .frstLine img {
+    width: 180px;
+    margin-left: 57px;
+  }
+
+  .frstLine button {
+    padding: 14px 55px;
+    font-size: 14px;
+    margin-right: 57px;
+  }
+
+  .product {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  .product img {
+    width: 34%;
+    margin-left: 120px;
+  }
+  .product p {
+    text-align: left;
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .pitchMain {
+    align-items: flex-start;
+    flex-basis: 40%;
+    margin-left: 70px;
+    margin-left: 100px;
+  }
+
+  #reverse {
+    flex-direction: row;
+  }
+
+  .calltoact {
+    width: 52%;
+    padding: 5px;
+  }
+
+  .calltoact h2 {
+    font-size: 32px;
+  }
+
+  .calltoact .getStarted {
+    padding: 25px 110px;
+    font-size: 19px;
+    border-radius: 40px;
+  }
+
+  footer {
+    margin-top: -90px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+
+  .footerWrap {
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    margin-left: 100px;
+  }
+
+  #logo {
+    width: 15%;
+    margin-left: 100px;
+  }
+
+  address {
+    flex: none;
+    width: 30%;
+  }
+
+  address img {
+    height: 16px;
+  }
+
+  ol,
+  ul {
+    columns: 2;
+    column-gap: 110px;
+  }
+
+  .attribution {
+    display: none;
+  }
+
+  #social {
+    margin-bottom: 140px;
+    justify-content: left;
+  }
+}
